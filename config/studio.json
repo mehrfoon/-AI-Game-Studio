@@ -1,0 +1,20 @@
+{
+  "studio_name": "Mehrfoon AI Game Studio",
+  "language": "fa",
+  "default_autonomy": "supervised",
+  "platform_policy": "choose_per_project",
+  "engine_policy": "auto_select_per_project",
+  "initial_engine_candidate": "Godot",
+  "supported_platforms": ["web", "android", "pc"],
+  "require_owner_approval_for": [
+    "paid_api_usage",
+    "publishing",
+    "deleting_main_branch_files",
+    "releasing_signed_builds"
+  ],
+  "secrets_policy": "GitHub Actions Secrets only",
+  "budgets": {
+    "api_spending_limit_usd": 0,
+    "require_confirmation_before_paid_usage": true
+  }
+}

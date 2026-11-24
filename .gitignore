@@ -1,0 +1,24 @@
+# Godot
+.godot/
+.import/
+.export/
+
+# Build output
+build/
+dist/
+exports/
+*.apk
+*.aab
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
