@@ -1,7 +1,7 @@
 {
   "studio_name": "Mehrfoon AI Game Studio",
   "language": "fa",
-  "default_autonomy": "supervised",
+  "default_autonomy": "full_with_guardrails",
   "platform_policy": "choose_per_project",
   "engine_policy": "auto_select_per_project",
   "initial_engine_candidate": "Godot",
